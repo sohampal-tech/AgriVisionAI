@@ -1,0 +1,35 @@
+{
+  "class_names": [
+    "BrownSpot",
+    "Healthy",
+    "Hispa",
+    "LeafBlast"
+  ],
+  "class_indices": {
+    "BrownSpot": 0,
+    "Healthy": 1,
+    "Hispa": 2,
+    "LeafBlast": 3
+  },
+  "img_size": [
+    224,
+    224
+  ],
+  "num_classes": 4,
+  "model_path": "E:\\Rice Leaf Disease minor project\\model.keras",
+  "severity_thresholds": {
+    "Mild": [
+      0,
+      25
+    ],
+    "Moderate": [
+      25,
+      50
+    ],
+    "Severe": [
+      50,
+      100
+    ]
+  },
+  "architecture": "YOLO-Backbone + CBAM (Channel + Spatial Attention)"
+}
